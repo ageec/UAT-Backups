@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>59.0</apiVersion>
+    <isExposed>true</isExposed>
+    <targets>
+        <target>lightning__AppPage</target>
+        <target>lightning__RecordPage</target>
+        <target>lightning__HomePage</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__AppPage,lightning__RecordPage,lightning__HomePage">
+
+            <property name="tab1Label"  type="String" label="Overview"  default="Tab 1"/>
+            <property name="tab2Label"  type="String" label="Development"  default="Tab 2"/>
+            <property name="tab3Label"  type="String" label="Gift Officers"  default="Tab 3"/>
+            <property name="tab4Label"  type="String" label="Med Gift Officers"  default="Tab 4"/>
+            <property name="tab5Label"  type="String" label="Medical Advancement"  default="Tab 5"/>
+            <property name="tab6Label"  type="String" label="Philanthropic Strategy"  default="Tab 6"/>
+            <property name="tab7Label"  type="String" label="Philanthropic Strategy Officers"  default="Tab 7"/>
+            <property name="tab8Label"  type="String" label="Principal Gifts"  default="Tab 8"/>
+            <property name="tab9Label"  type="String" label="Territories"  default="Tab 9"/>
+
+            <property name="dashboard1ApiName" type="String" label="Overview"/>
+            <property name="dashboard2ApiName" type="String" label="Development"/>
+            <property name="dashboard3ApiName" type="String" label="Gift Officers"/>
+            <property name="dashboard4ApiName" type="String" label="Med Gift Officers"/>
+            <property name="dashboard5ApiName" type="String" label="Medical Advancement"/>
+            <property name="dashboard6ApiName" type="String" label="Philanthropic Strategy"/>
+            <property name="dashboard7ApiName" type="String" label="Philanthropic Strategy Officers"/>
+            <property name="dashboard8ApiName" type="String" label="Principal Gifts"/>
+            <property name="dashboard9ApiName" type="String" label="Territories"/>
+
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

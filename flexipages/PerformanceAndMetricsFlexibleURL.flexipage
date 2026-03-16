@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlexiPage xmlns="http://soap.sforce.com/2006/04/metadata">
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>dashboard1ApiName</name>
+                    <value>0FKPH0000000Siz4AE</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>dashboard2ApiName</name>
+                    <value>0FKPH0000000kKk4AI</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>dashboard3ApiName</name>
+                    <value>0FKPH0000000Siw4AE</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>dashboard4ApiName</name>
+                    <value>0FKPH0000000Six4AE</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>dashboard5ApiName</name>
+                    <value>0FKPH0000000Siy4AE</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>dashboard6ApiName</name>
+                    <value>0FKPH0000000Sj04AE</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>dashboard7ApiName</name>
+                    <value>0FKPH0000000Sj14AE</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>dashboard8ApiName</name>
+                    <value>0FKPH0000000Sj24AE</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>dashboard9ApiName</name>
+                    <value>0FKPH0000000Sj34AE</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>tab1Label</name>
+                    <value>Overview</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>tab2Label</name>
+                    <value>Development</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>tab3Label</name>
+                    <value>Gift Officers</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>tab4Label</name>
+                    <value>Med Gift Officers</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>tab5Label</name>
+                    <value>Medical Advancement</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>tab6Label</name>
+                    <value>Philanthropic Strategy</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>tab7Label</name>
+                    <value>Philanthropic Strategy Officers</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>tab8Label</name>
+                    <value>Principal Gifts</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>tab9Label</name>
+                    <value>Territories</value>
+                </componentInstanceProperties>
+                <componentName>performanceAndMetrics</componentName>
+                <identifier>c_performanceAndMetrics</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>region1</name>
+        <type>Region</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <name>region2</name>
+        <type>Region</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <name>region3</name>
+        <type>Region</type>
+    </flexiPageRegions>
+    <masterLabel>Performance &amp; Metrics</masterLabel>
+    <template>
+        <name>flexipage:appHomeTemplateHeaderTwoColumnsLeftSidebar</name>
+    </template>
+    <type>AppPage</type>
+</FlexiPage>

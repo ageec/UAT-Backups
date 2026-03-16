@@ -1,0 +1,43 @@
+<template>
+    <lightning-card>
+            <lightning-tabset active-tab-value={activeTab} onselect={handleTabChange}>
+
+                <lightning-tab label={tab1Label} value="tab1">
+                    <wave-wave-dashboard-lwc developer-name={dashboard1ApiName} height="3000" show-sharing="true" state={state1}></wave-wave-dashboard-lwc>
+                </lightning-tab>
+
+                <lightning-tab label={tab2Label} value="tab2">
+                    <wave-wave-dashboard-lwc developer-name={dashboard2ApiName} height="7000" show-sharing="true" state={state2}></wave-wave-dashboard-lwc>
+                </lightning-tab>
+
+                <lightning-tab label={tab3Label} value="tab3">
+                    <wave-wave-dashboard-lwc developer-name={dashboard3ApiName} height="6000" show-sharing="true" state={state3}></wave-wave-dashboard-lwc>
+                </lightning-tab>
+
+                <lightning-tab label={tab4Label} value="tab4">
+                    <wave-wave-dashboard-lwc developer-name={dashboard4ApiName} height="6000" show-sharing="true" state={state4}></wave-wave-dashboard-lwc>
+                </lightning-tab>
+
+                <lightning-tab label={tab5Label} value="tab5">
+                    <wave-wave-dashboard-lwc developer-name={dashboard5ApiName} height="8000" show-sharing="true" state={state5}></wave-wave-dashboard-lwc>
+                </lightning-tab>
+
+                <lightning-tab label={tab6Label} value="tab6">
+                    <wave-wave-dashboard-lwc developer-name={dashboard6ApiName} height="3000" show-sharing="true" state={state6}></wave-wave-dashboard-lwc>
+                </lightning-tab>
+
+                <lightning-tab label={tab7Label} value="tab7">
+                    <wave-wave-dashboard-lwc developer-name={dashboard7ApiName} height="5000" show-sharing="true" state={state7}></wave-wave-dashboard-lwc>
+                </lightning-tab>
+
+                <lightning-tab label={tab8Label} value="tab8">
+                    <wave-wave-dashboard-lwc developer-name={dashboard8ApiName} height="8000" show-sharing="true" state={state8}></wave-wave-dashboard-lwc>
+                </lightning-tab>
+
+                <lightning-tab label={tab9Label} value="tab9">
+                    <wave-wave-dashboard-lwc developer-name={dashboard9ApiName} height="7000" show-sharing="true" state={state9}></wave-wave-dashboard-lwc>
+                </lightning-tab>
+
+            </lightning-tabset>
+    </lightning-card>
+</template>
